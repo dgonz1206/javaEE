@@ -8,5 +8,10 @@
 </head>
 <body>
 <h3>Enter some info</h3>
+<form action="ProcessInfo" method="post">
+<label>Name: </label>
+<input type="text" name="name"><br>
+<input type="submit" value="Send">
+</form>
 </body>
 </html>
